@@ -63,7 +63,7 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <Header
-        logo="/img/UnixTemp512.png"
+        logo="./img/UnixTemp512.png"
         language={language}
         setLanguage={handleLanguageChange}
         translations={translations[language]}
